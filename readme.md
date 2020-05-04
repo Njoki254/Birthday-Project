@@ -1,7 +1,8 @@
 The goal of this wproject was to practice and better understand  working with data types, Array, writing functions, control flow, and operators.
 
 Below is a link to the live website on github pages
-https://njoki254.github.io/Catering-Website/.
+
+https://njoki254.github.io/Birthday-Project/
 
 Overall Description
 This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
