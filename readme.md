@@ -9,50 +9,27 @@ This is a web application that takes a user's birthday and calculates the day of
 
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
 
+Algorithms USED
+
+a = (14 - month) / 12
+
+y = year - a
+
+m = month + 12 * a - 2
+
+d = (day + y + y / 4 - y / 100 + y / 400 + (31 * m / 12) % 7
+
 BDD
 
-<table>
-    <tr>
-      <th>Weekday</th>
-      <th>Female Names</th>
-      <th>Male Names</th>
-    </tr>
-    <tr>
-      <td>Sunday</td>
-      <td>Akosua</td>
-      <td>Kwasi</td>
-    </tr>
-    <tr>
-      <td>Monday</td>
-      <td>Adwoa</td>
-      <td>Kwadwo</td>
-    </tr>
-    <tr>
-      <td>Tuesday</td>
-      <td>Abenaa</td>
-      <td>Kwabena</td>
-    </tr>
-    <tr>
-      <td>Wednesday</td>
-      <td>Akua</td>
-      <td>Kwaku</td>
-    </tr>
-    <tr>
-      <td>Thursday</td>
-      <td>Yaa</td>
-      <td>Yaw</td>
-    </tr>
-    <tr>
-      <td>Friday</td>
-      <td>Afua</td>
-      <td>Kofi</td>
-    </tr>
-    <tr>
-      <td>Saturday</td>
-      <td>Ama</td>
-      <td>Kwame</td>
-    </tr>
-  </table>
+Inputs:
+Year of Birth: Year person was born  eg 1999
+Month of Month: Month person was born eg 07 for March
+day of birth: (1-31) eg 27
+Gender: Choose between male and female
+
+Outputs:
+Weekday Born: The day of the week one was Born
+Akan Name: The name based on which day of the week the person was born
 
 As a user, you will be able to;
 
