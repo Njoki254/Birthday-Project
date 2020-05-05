@@ -1,4 +1,4 @@
-The goal of this wproject was to practice and better understand  working with data types, Array, writing functions, control flow, and operators.
+The goal of this project was to practice and better understand  working with data types, Array, writing functions, control flow, and operators.
 
 Below is a link to the live website on github pages
 
@@ -9,12 +9,59 @@ This is a web application that takes a user's birthday and calculates the day of
 
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
 
+BDD
+
+<table>
+    <tr>
+      <th>Weekday</th>
+      <th>Female Names</th>
+      <th>Male Names</th>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>Akosua</td>
+      <td>Kwasi</td>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Adwoa</td>
+      <td>Kwadwo</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>Abenaa</td>
+      <td>Kwabena</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>Akua</td>
+      <td>Kwaku</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>Yaa</td>
+      <td>Yaw</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>Afua</td>
+      <td>Kofi</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>Ama</td>
+      <td>Kwame</td>
+    </tr>
+  </table>
+
 As a user, you will be able to;
 
 See a  small description of what the application does on the landing page.
 Enter your birthday through a form
 Choose your gender.
 Click the submit button to see what your Akan name would be
+
+TECHNOLOGIES USED
 
 The project uses one or more javascript functions.
 Appropriate control flows and logical operators are used in the project.
@@ -24,7 +71,7 @@ The project uses a custom CSS stylesheet that incorporates cascading, box model 
 The project works as expected, achieving the functionality required.
 
 
-Licence
+LICENCE
 
 IT License
 
