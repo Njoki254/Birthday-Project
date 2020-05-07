@@ -11,21 +11,28 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 
 Algorithms USED
 
-a = (14 - month) / 12
+Zellar Algorithims
 
-y = year - a
+Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
 
-m = month + 12 * a - 2
+ where;
 
-d = (day + y + y / 4 - y / 100 + y / 400 + (31 * m / 12) % 7
+ CC - is the century digits. For example 1989 has CC = 19
 
+ YY - is the Year digits (1989 has YY = 89)
+
+ MM -  is the Month
+
+ DD - is the Day of the month
+
+ mod - is the modulus function ( % )
 BDD
 
 Inputs:
-Year of Birth: Year person was born  eg 1999
-Month of Month: Month person was born eg 07 for March
-day of birth: (1-31) eg 27
-Gender: Choose between male and female
+Year of Birth: Year person was born
+Month of Month: Month person was born ex. 08 for August
+day of birth: (1-31)
+Gender: male and female
 
 Outputs:
 Weekday Born: The day of the week one was Born
