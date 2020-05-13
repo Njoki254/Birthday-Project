@@ -5,7 +5,7 @@
 
 Here is a link to the live website on github pages
 
-[Akan Name Generator Link][https://njoki254.github.io/Birthday-Project/]
+[Akan Name Generator Link](https://njoki254.github.io/Birthday-Project/)
 
 ## Overall Description
 The goal of this project was to practice and better understand  working with data types, Array, writing functions, control flow, and operators.
